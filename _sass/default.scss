@@ -15,6 +15,7 @@ $background-color: #444349 !default;
 $background-img:   'img/bg.png' !default;
 $brand-color:      #2a7ae2 !default;
 $out-color:        #e25a40 !default;
+$smooth-color:     #b8b8b8 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -39,5 +40,6 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 
 // Import partials.
 @import "default/base",
-"default/layout"
+"default/layout",
+"default/stars"
 ;
