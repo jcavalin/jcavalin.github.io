@@ -1,0 +1,67 @@
+header {
+  text-align: center;
+  width: 100%;
+
+  .intro {
+    padding-top: 8%;
+    max-width: 500px;
+    margin: auto;
+
+    .picture {
+      position: relative;
+      height: 200px;
+      width: 200px;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      margin: 0 auto;
+    }
+
+    .title {
+      text-shadow: 0.2px 0.5px 0.5px rgba(0, 0, 0, 0.7);
+      font-size: 4em;
+      font-weight: 900;
+      letter-spacing: -0.035em;
+      line-height: 1em;
+      margin-bottom: 0;
+    }
+
+    .description {
+      color: $out-color;
+      line-height: 1em;
+      text-shadow: 0.2px 0.5px 0.5px rgba(0, 0, 0, 0.4);
+    }
+
+    ul.find-me {
+      list-style: none;
+      font-size: 2.5em;
+      margin: auto;
+      max-width: 300px;
+
+      li {
+        float: left;
+        margin: 10px;
+
+        a {
+          color: $text-color;
+        }
+
+        a:hover {
+          color: $out-color;
+        }
+      }
+    }
+  }
+}
+
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: $smooth-color;
+
+  .credits {
+    padding: 0.5em 0.5em 0.5em 0;
+    float: right;
+  }
+}

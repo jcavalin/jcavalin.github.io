@@ -1,0 +1,21 @@
+title: Julio Cavalin
+sub_title: Software Engineer
+description: >-
+  My personal page
+baseurl: ""
+url: "https://jcavalin.github.io"
+
+email: julio.cavalin@gmail.com
+github_username: jcavalin
+telegram_username: jcavalin
+linkedin_username: jcavalin
+zend_id: ZEND027260
+
+# Build settings
+markdown: kramdown
+theme: minima
+permalink: /:title/
+
+# Google-analytics
+google-analytics:
+  id: "UA-109541599-1"
