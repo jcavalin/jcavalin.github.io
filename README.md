@@ -1,6 +1,6 @@
 # jcavalin.github.io
 
-My personal page.
+Just to say hi!
 
 ## Quickstart
 docker-compose up -d --build
